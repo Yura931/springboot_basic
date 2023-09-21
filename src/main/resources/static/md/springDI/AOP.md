@@ -1,8 +1,8 @@
 # AOP의 개념과 용어
 
 ### 1. AOP(Aspect Oriented Programming)
-> 관심 지향 프로그래밍, 횡단 관심사, cross-cutting concerns  
-> 부가 기능(advice)을 동적으로 추가해주는 기술 -> 공통 관심사(Logging, Transaction, Security)
+> 관심 지향 프로그래밍, 횡단 관심사, cross-cutting concerns    
+> 부가 기능(advice)을 동적으로 추가해주는 기술 -> 공통 관심사(Logging, Transaction, Security)  
 > 메서드의 시작 또는 끝에 자동으로 코드(advice)를 추가
 
 ### 2. AOP 관련 용어
@@ -25,7 +25,7 @@
 |after throwing|@AfterThrowing|예외가 발생했을 때, 실행되는 부가 기능|
 
 ### 4. pointcut expression
-> advice가 추가될 메서드를 지정하기 위한 패턴
+> advice가 추가될 메서드를 지정하기 위한 패턴  
 > execution(접근제어자(생략가능) 반환타입 패키지명.클래스명.메서드명(매새변수 목록))
 
 
