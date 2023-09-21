@@ -172,7 +172,7 @@
 >   - #objects - null 확인 기능 제공
 >   - #bools - boolean연산(and, or) 기능 제공
 >
-> [참고] https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#appendix-b-expression-utility-objects
+> [참고] https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#appendix-b-expression-utility-objects  
 > [참고] https://www.thymeleaf.org/apidocs/thymeleaf/3.0.0.RELEASE/index.html?overview-summary.html
 
 ### 11. 기본 객체

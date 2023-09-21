@@ -10,6 +10,7 @@ class Car{
 
     @Autowired
     private Engine engine;
+    @Autowired
     private Door door;
 
     @Override

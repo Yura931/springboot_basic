@@ -20,4 +20,21 @@
 > 클래스 파일(*.class)이 메모리에 로드될 때 생성
 > ![Class객체](../../img/Class객체.jpg)
 
+### 4. 객체 컨테이너(ApplicationContext)
+> - 객체 저장소
+> - 객체 찾기
+>   - by Name : 이름으로 찾기(key)
+>   - by Type : 타입으로 찾기(class 타입, value instanceof)
+
+### 5. 객체를 자동 연결 하기 
+> - @Autowired : byType 클래스 타입
+>   - spring container에서 타입으로 빈을 검색해서 참조 변수에 자동 주입(DI)
+>   - 검색된 빈이 n개이면, 그 중에 참조변수와 이름이 일치하는 것을 주입.
+>   - 주입 대상이 변수일 때, 검색된 빈이 1개 아니면 예외 발생
+>   - 주입 대상이 배열 일 때, 검색된 빈이 n개라도 예외 발생X
+>   - @Autowired(required=false)일 때, 주입할 빈을 못찾아도 예외 발생X
+> - @Resource : byName 참조변수 이름
+>   - spring container에서 이름으로 빈을 검색해서 참조 변수에 자동 주입(DI)
+>   - 일치하는 이름의 빈이 없으면, 예외 발생
+
 

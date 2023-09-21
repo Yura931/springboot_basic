@@ -23,8 +23,8 @@
 
 ### 3. HTTP 요청과 요청 방법
 > 1. URL 직접입력으로 요청(GET)
-> 2. 링크 <a>로 요청(GET)
-> 3. 폼 <form>으로 요청(GET, POST)
+> 2. 링크 \<a>로 요청(GET)
+> 3. 폼 \<form>으로 요청(GET, POST)
 > 4. redirect - 다른 URL로 이동(GET), 자동 재요청. 브라우져 URL 변경됨
 > 5. forward - 요청(GET, POST)을 다른 URL로 전달. 브라우져 URL 변경 안됨
  
