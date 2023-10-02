@@ -77,8 +77,8 @@ public class Main {
         System.out.println("ac.isSingleton(\"car\") = " + ac.isSingleton("car"));
         System.out.println("ac.isPrototype(\"engine\") = " + ac.isPrototype("engine"));
 
-        SysInfo info = ac.getBean(SysInfo.class);
-        System.out.println("info = " + info);
+/*        SysInfo info = ac.getBean(SysInfo.class);
+        System.out.println("info = " + info);*/
 
         Map<String, String> env = System.getenv();
         System.out.println("env = " + env);

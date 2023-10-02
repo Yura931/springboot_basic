@@ -1,3 +1,4 @@
+/*
 package com.fastcampus.springboot.ch3.di3;
 
 import org.springframework.beans.factory.annotation.Value;
@@ -34,3 +35,4 @@ public class SysInfo {
                 '}';
     }
 }
+*/
