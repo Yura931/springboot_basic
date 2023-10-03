@@ -13,6 +13,12 @@ public class Board {
     private String content;
     private Long viewCnt;
 
+
+    @ManyToOne
+    @JoinColumn(name="user_id", nullable = false)
+    private User user;
+
+
     @Temporal(value = TemporalType.TIMESTAMP)
     private Date inDate;
     @Temporal(value = TemporalType.TIMESTAMP)
@@ -26,9 +32,18 @@ public class Board {
                 ", writer='" + writer + '\'' +
                 ", content='" + content + '\'' +
                 ", viewCnt=" + viewCnt +
+//                ", user=" + user +
                 ", inDate=" + inDate +
                 ", upDate=" + upDate +
                 '}';
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 
     public Long getBno() {
